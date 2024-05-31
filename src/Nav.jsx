@@ -31,7 +31,7 @@ export default function NavBar({ supabase }) {
               Logout
             </a>
           ) : (
-            <a href="/supabase-login">Login</a>
+            <a href="supabase-login">Login</a>
           )}
         </li>
       </ul>

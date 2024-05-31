@@ -9,7 +9,6 @@ import DepositForm from "./components/DepositForm";
 import Preferences from "./components/Preferences";
 import TransferHistory from "./components/TransferHistory";
 import Help from "./components/Help";
-import Login from "./components/Users/Login";
 import success from "./components/Stripe/success";
 import Failure from "./components/Stripe/Failure";
 import supabase from './Config/supabaseConfig'
@@ -30,8 +29,7 @@ export default function App() {
         <NavBar supabase={supabase} />
         <Routes>
           <Route path="/" Component={MainPage} />
-          <Route path="login" Component={Login} />
-          <Route path="/supabase-login" element={<LoginSupabase supabase={supabase}/>}/>
+          <Route path="supabase-login" element={<LoginSupabase supabase={supabase}/>}/>
           <Route path="/supabase-logout" element={<LogoutSupabase supabase={supabase}/>}/>
           <Route path="coin/send" Component={SendCoin} />
           <Route path="coin/balance" Component={CoinBalance} />

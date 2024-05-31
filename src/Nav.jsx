@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
-import LogoutSupabase from "./components/Users/LogoutSupabase"
-import { AuthContext } from "./components/Users/AuthContext";
+import LogoutSupabase from "./components/LogoutSupabase"
+import { AuthContext } from "./components/AuthContext";
 
 export default function NavBar({ supabase }) {
 

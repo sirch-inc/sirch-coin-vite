@@ -1,7 +1,7 @@
 import React, { useState, useRef, useContext } from "react";
 import { loadStripe } from "@stripe/stripe-js";
 import { Link } from "react-router-dom";
-import { AuthContext } from "./Users/AuthContext";
+import { AuthContext } from "./AuthContext";
 import supabase from "../Config/supabaseConfig";
 
 const DepositForm = () => {

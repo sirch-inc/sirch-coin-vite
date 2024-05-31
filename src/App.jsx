@@ -12,10 +12,10 @@ import Help from "./components/Help";
 import success from "./components/Stripe/success";
 import Failure from "./components/Stripe/Failure";
 import supabase from './Config/supabaseConfig'
-import LoginSupabase from "./components/Users/LoginSupabase";
-import LogoutSupabase from "./components/Users/LogoutSupabase"
+import LoginSupabase from "./components/LoginSupabase";
+import LogoutSupabase from "./components/LogoutSupabase"
 import CoinFaucetDeposit from "./components/CoinFaucetDeposit";
-import { AuthProvider } from "./components/Users/AuthContext";
+import { AuthProvider } from "./components/AuthContext";
 
 export default function App() {
 

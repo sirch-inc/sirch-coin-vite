@@ -29,7 +29,7 @@ export default function App() {
         <NavBar supabase={supabase} />
         <Routes>
           <Route path="/" Component={MainPage} />
-          <Route path="supabase-login" Component={LoginSupabase}/>
+          <Route path="/supabase-login" Component={LoginSupabase}/>
           <Route path="/supabase-logout" Component={LogoutSupabase}/>
           <Route path="coin/send" Component={SendCoin} />
           <Route path="coin/balance" Component={CoinBalance} />
